@@ -1,0 +1,49 @@
+
+/*general topography*/
+.card {
+	width: 560px;
+    background: #000;
+    color: white;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+/*other topography*/
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.accent-color {
+    color: #FFE600;
+	border-bottom: 1px solid yellow;
+}
+
+a:link, a:visited {
+    color: #FFE600;
+}
+/*means hover on*/
+a:hover {
+/*    color: firebrick;*/
+	color: blue;
+}
+/*means clicked on*/
+a:focus {
+    color: aquamarine;
+}
+/*means right clicked on or visited*/
+a:active {
+    color: plum;
+}
+
+/*general layout*/
+h1, p {
+    margin-top: 0;
+}
+.links {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
